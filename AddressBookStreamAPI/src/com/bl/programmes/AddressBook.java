@@ -223,10 +223,13 @@ public class AddressBook {
                     break;
                 case 3:
                     addressBook.deletePerson();
+                    break;
                 case 4:
                     addressBook.searchByCity();
+                    break;
                 case 5 :
                     addressBook.sortByNameUsingStreamAPI();
+                    break;
                 case 10:
                     break;
             }
